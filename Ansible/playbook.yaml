@@ -1,0 +1,18 @@
+---
+- hosts: jenkins
+  become: true
+  roles:
+    - docker
+    - role: clone
+      vars:
+        - repository: https://github.com/AAtkinsonQA/CI-Pipeline.git
+        - destination: /home/ubuntu/flask-app
+    - jenkins
+    - mysql
+    - aws
+    - kube
+- hosts: testvm
+  become: true
+  roles:
+    - mysql
+    - docker
