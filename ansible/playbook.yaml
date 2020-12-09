@@ -1,0 +1,10 @@
+---
+- hosts: jenkins
+  become: true
+  roles:
+    - docker
+    - jenkins
+    - mysql
+    - aws
+    - kube
+    - jenkinscli
