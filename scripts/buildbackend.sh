@@ -10,7 +10,7 @@ buildpush() {
     docker push nexus-IP:repo-port/sfia3-$1:latest
     cd ..
 }
-
+ 
 buildpush create 
 buildpush get
 buildpush getSingle

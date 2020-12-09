@@ -8,7 +8,7 @@ testmc() {
     mvn test
     cd ..
 }
-  
+
 testmc create
 testmc get
 testmc getSingle
