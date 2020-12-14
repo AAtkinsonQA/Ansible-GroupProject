@@ -1,2 +1,2 @@
 - name: "Install Kubernetes"
-  script: /home/ubuntu/CI-Pipeline/scripts/kubernetes.sh
+  script: /home/ubuntu/Ansible-GroupProject/scripts/kubernetes.sh

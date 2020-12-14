@@ -1,2 +1,2 @@
 - name: "Install docker"
-  script: /home/ubuntu/CI-Pipeline/scripts/dockerscript.sh
+  script: /home/ubuntu/Ansible-GroupProject/scripts/dockerscript.sh

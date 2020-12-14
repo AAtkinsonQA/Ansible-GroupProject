@@ -1,2 +1,2 @@
 - name: "Install mysql"
-  script: /home/ubuntu/CI-Pipeline/scripts/mysqlscript.sh
+  script: /home/ubuntu/Ansible-GroupProject/scripts/mysqlscript.sh
